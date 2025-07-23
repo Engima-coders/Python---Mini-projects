@@ -12,7 +12,7 @@ def conv():
     b=f_var.get()
     c=t_var.get()
     
-    url="ENTER YOUR CURRENCY CONVERTER API KEY"
+    url="ENTER YOUR CURRENCY CONVERTER API KEY"#first u have to get a api key from any currency converter website 
     response=requests.get(url)
     if response.status_code==200:
         rates=response.json()
